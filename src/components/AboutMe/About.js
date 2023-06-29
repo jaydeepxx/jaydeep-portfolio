@@ -33,7 +33,7 @@ const About = () => {
             {/* button */}
             <div className=" mx-auto flex flex-wrap mt-1 md:ml-6">
               <a
-                href=""
+                href="#home"
                 className=" hover:bg-[#C778DD33] border border-[#C778DD] pl-3 pr-0  text-white  max-w-[1560px]  "
               >
                 <button className="flex flex-wrap mx-auto jus"><span className="mx-auto mt-3">Resume</span> <img className="" src={dowonlaod} alt="" /></button>

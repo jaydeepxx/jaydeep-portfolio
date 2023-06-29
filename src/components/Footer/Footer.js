@@ -35,13 +35,13 @@ const Footer = () => {
             <h2 className="ml-4 sm:ml-0 text-white text-2xl font-medium mb-3">Media</h2>
             {/* media */}
             <div className="flex items-center gap-2">
-              <a href="https://github.com/jaydeepxx" target="_blank">
+              <a href="https://github.com/jaydeepxx" target="_blank" rel="noopener noreferrer">
                 <img className="hover:scale-110 duration-500" src={require("./imgs/github.png")} alt="" />
               </a>
-              <a href="https://www.linkedin.com/in/jaydeepxx/" target="_blank">
+              <a href="https://www.linkedin.com/in/jaydeepxx/" target="_blank" rel="noopener noreferrer">
                 <img className="hover:scale-110 duration-500" src={require("./imgs/linkedin.png")} alt="" />
               </a>
-              <a href="https://www.facebook.com/jaydeepxx/#" target="_blank">
+              <a href="https://www.facebook.com/jaydeepxx/#" target="_blank" rel="noopener noreferrer">
                 <img className="hover:scale-110 duration-500" src={require("./imgs/facebook.png")} alt="" />
               </a>
             </div>

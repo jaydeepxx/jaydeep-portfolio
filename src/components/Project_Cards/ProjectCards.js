@@ -18,12 +18,12 @@ const ProjectCards = ({ img, langs, title, desc,codelink,livelink }) => {
             <p className="py-4 text-[#ABB2BF]">{desc}</p>
             {/* btns */}
             <div className=" flex gap-2">
-              <a href={codelink} target="_blank">
+              <a href={codelink} target="_blank" rel="noopener noreferrer">
               <button className="py-2 px-4 text-white border border-[#C778DD] hover:bg-[#C778DD33]" type="button">
                 Code {"<"}~{">"}
               </button>
               </a>
-              <a href="">
+              <a href="#home" >
               <button className="py-2 px-4 text-white border border-[#C778DD] hover:bg-[#C778DD33]" type="button">
                 Live {"<"}~{">"}
               </button>

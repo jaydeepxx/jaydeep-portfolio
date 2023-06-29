@@ -1,29 +1,7 @@
-import email from "./imgs/email.png";
+
 
 const Contact = () => {
-  const skills = [
-    {
-      img: email,
-      msg: "email",
-      msgid: "jaydeepmeena62@gmail.com",
-      title: "send message",
-      style: "shadow-[#C778DD]",
-    },
-    {
-      img: email,
-      msg: "whatsapp",
-      msgid: "635-0077-939",
-      title: "send message",
-      style: "shadow-[#C778DD]",
-    },
-    {
-      img: email,
-      msg: "call",
-      msgid: "jaydeepmeena62@gmail.com",
-      title: "send message",
-      style: "shadow-[#C778DD]",
-    },
-  ];
+  
   return (
     <section id="contacts">
       <div className=" sm:w-10/12 px-5 max-w-[1560px] mx-auto mt-8 py-8">
