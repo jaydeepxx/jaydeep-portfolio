@@ -1,33 +1,40 @@
 import ProjectCards from "../Project_Cards/ProjectCards";
 import portfolioImg from "./imgs/projectPortfolio.png"
-import myportfolio from "./imgs/myportfolio.png"
-
+import cryptrack from "./imgs/cryptrack.png";
+import sharebuddy from "./imgs/sharebuddy.png"
 
 const Projects = () => {
   const projects = [
     {
       img: portfolioImg,
-      langs: ["html", "css", "js", "nodeJs", "nodeExpress", "mySql"],
+      langs: ["HTML", "CSS", "JS", "Bootstrap", "NodeJs", "ExpressJs", "MySql"],
       title: "IIITApfolio",
       desc: "Acads/Non-Acads Portfolio Of IIIT-A Students",
-      codelink:"https://github.com/jaydeepxx/IIITAPfollio",
-      livelink:"",
+      codelink: "https://github.com/jaydeepxx/IIITAPfollio",
+      livelink: "https://iiitapfolio.onrender.com/",
     },
     {
-      img: "",
-      langs: ["html", "css", "js", "php", "mySql"],
-      title: "Online Food Delivery System",
-      desc: "online food delivery system with user panel, admin panel & delivery boy panel",
-      codelink:"https://github.com/jaydeepxx/IIITAPfollio",
-      livelink:"",
+      img: sharebuddy,
+      langs: ["AWS S3", "React", "NodeJs", "ExpressJs", "MongoDB", "Multer"],
+      title: "ShareBuddy",
+      desc: "Online Cloud Based File Sharing Web App Using AWS S3 Bucket",
+      codelink: "https://github.com/jaydeepxx/ShareBuddy",
+      livelink: "https://sharebuddyy.netlify.app/",
     },
     {
-      img: myportfolio,
-      langs: ["reactjs","tailwindCss","netlify"],
-      title: "My Portfolio",
-      desc: "my fully responsive portfolio made by Reactjs",
-      codelink:"https://github.com/jaydeepxx/IIITAPfollio",
-      livelink:"",
+      img: cryptrack,
+      langs: [
+        "ReactJs",
+        "Tailwind CSS",
+        "ExpressJs",
+        "RapidApi",
+        "Lodash",
+        "CoinGecko",
+      ],
+      title: "CrypTrack",
+      desc: "CrypTrack is React based web app where user can see current coins price, trending coins & also can add their favourite coins into watchlist.",
+      codelink: "https://github.com/jaydeepxx/CrypTrack",
+      livelink: "https://cryptrackkk.netlify.app/",
     },
   ];
 

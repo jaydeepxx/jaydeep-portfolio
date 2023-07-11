@@ -1,6 +1,8 @@
 import dowonlaod from "./imgs/down.png";
+import resume from "../../file/Jaydeep_Meena.pdf";
 
 const About = () => {
+
   return (
     <section className="" id="about">
       <div className="sm:w-10/12 px-5 max-w-[1560px] mx-auto  py-20">
@@ -27,23 +29,30 @@ const About = () => {
               <br />I am an Information Technology With Business Informatics
               undergraduate from IIITA. I am very passionate about improving my
               coding skills & developing applications & websites.
-              <br />
-              I always strive to learn about the newest technologies and frameworks.
+              <br />I always strive to learn about the newest technologies and
+              frameworks.
             </p>
             {/* button */}
             <div className=" mx-auto flex flex-wrap mt-1 md:ml-6">
               <a
-                href="#home"
-                className=" hover:bg-[#C778DD33] border border-[#C778DD] pl-3 pr-0  text-white  max-w-[1560px]  "
+                href={resume}
+                download="Jaydeep_Meena.pdf"
+                className="hover:bg-[#C778DD33] border border-[#C778DD] pl-3 pr-0  text-white  max-w-[1560px]"
               >
-                <button className="flex flex-wrap mx-auto jus"><span className="mx-auto mt-3">Resume</span> <img className="" src={dowonlaod} alt="" /></button>
+                <button className="flex flex-wrap mx-auto jus  ">
+                  <span className="mx-auto mt-3">Resume</span>{" "}
+                  <img className="" src={dowonlaod} alt="" />
+                </button>
               </a>
             </div>
-            
           </div>
           <div className=" hover:scale-105 duration-500 mx-auto sm:mx-0">
-              <img className="mx-auto mt-[5rem] sm:mx-0" src={require("./imgs/aboutmeimg.png")} alt="" />
-            </div>
+            <img
+              className="mx-auto mt-[5rem] sm:mx-0"
+              src={require("./imgs/aboutmeimg.png")}
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </section>
